@@ -1,14 +1,14 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://api.openweathermap.org/geo/1.0/';
+// axios.defaults.baseURL = 'http://api.openweathermap.org/geo/1.0/';
 const KEY = '49e7675ce522af79afa483dcb6943f32';
 
 export const getCityData = createAsyncThunk(
   'cities/getAll',
   async (city, thunkAPI) => {
     try {
-      const cityRes = await axios.get('direct', {
+      const cityRes = await axios.get('http://api.openweathermap.org/geo/1.0/direct', {
         params: {
           q: city,
           limit: 1,
