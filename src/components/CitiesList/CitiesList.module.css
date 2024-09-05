@@ -1,0 +1,45 @@
+.empty {
+  margin-top: 20px;
+  font-size: 24px;
+  color: rgb(37, 34, 34);
+  text-align: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgb(116, 115, 115);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px black;
+  background-color: aquamarine;
+}
+.item {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.name {
+  font-size: 17px;
+  color: black;
+}
+span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  border: none;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
