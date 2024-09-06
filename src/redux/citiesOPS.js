@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const KEY = '49e7675ce522af79afa483dcb6943f32';
+const KEY = import.meta.env.VITE_API_KEY;
 
 export const getCityData = createAsyncThunk(
   'cities/getAll',

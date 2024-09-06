@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   padding-top: 20px;
+  background-color: rgb(225, 222, 222);
 }
 
 h1,
@@ -24,6 +25,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+
 }
 
 svg {
@@ -46,5 +48,5 @@ a {
   background-color: rgb(33, 217, 241);
   border-radius: 8px;
   box-shadow: 6px 6px 12px black;
-  padding: 15px;
+  padding: 20px;
 }
